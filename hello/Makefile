@@ -1,2 +1,2 @@
 hello: hello.c
-	gcc -std=c11 -Wall $^ -o $@ -lpthread
+	gcc -std=c11 -Wall $^ -o $@ -lpthread -g
